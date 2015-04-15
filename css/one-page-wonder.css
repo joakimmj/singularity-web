@@ -35,6 +35,12 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-collapse {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 header {
@@ -42,19 +48,17 @@ header {
     overflow: auto;
 }
 
-header::-webkit-scrollbar { 
-  /* This is the magic bit */
-  display: none;
+header::-webkit-scrollbar {
+    display: none;
 }
 
 .headline {
     padding: 50px 0;
-    /*padding-top: calc(100vh - 130px); */
 }
 
 .headline h1 {
-    font-size: 130px;
-    /* padding-top: calc(50vh - 130px); */ /* vertical centre */
+    font-size: 130px;/* 130px; */
+    padding-top: calc(50vh - 130px); /* vertical centre */
     border-radius: 5px;
 }
 
@@ -69,9 +73,8 @@ header::-webkit-scrollbar {
 /* box design */
 .headline .jumbotron, .headline h1, .navbar-btn, .footer h3{
     color: #F3F3F3;
-    /* background: rgba(255,255,255,0.9); */
-    /* background: rgba(255,255,255,0); /\* no box *\/ */
-    background: rgba(48,48,48,0.7); /* grey box */
+/* background: rgba(255,255,255,0.9); */
+/* background: rgba(48,48,48,0.7); */ /* grey box */
 }
 
 
