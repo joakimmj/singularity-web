@@ -1,0 +1,310 @@
+/* ################## */
+/* # SINGULARITY DA # */
+/* ################## */
+
+/*-----[ HEADER  ]------------------------------------------------------------*/
+.navbar-inverse {
+    background: rgba(255,255,255,0);
+    border-style: none;
+}
+
+.navbar-btn {
+    /* border-style: none; */
+    border-radius: 5px;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #9D9D9D;
+}
+
+.header-image, .footer, .navbar {
+    display: block;
+    width: 100%;
+    /* height: 100vh; */
+    text-align: center;
+    background: url('../img/header.jpg') no-repeat top center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header {
+    height: 100vh;
+    overflow: auto;
+}
+
+header::-webkit-scrollbar { 
+  /* This is the magic bit */
+  display: none;
+}
+
+.headline {
+    padding: 50px 0;
+    /*padding-top: calc(100vh - 130px); */
+}
+
+.headline h1 {
+    font-size: 130px;
+    /* padding-top: calc(50vh - 130px); */ /* vertical centre */
+    border-radius: 5px;
+}
+
+.headline .jumbotron h2 {
+    font-size: 77px;
+}
+
+.headline .jumbotron {
+    font-size: 50px;
+}
+
+/* box design */
+.headline .jumbotron, .headline h1, .navbar-btn, .footer h3{
+    color: #F3F3F3;
+    /* background: rgba(255,255,255,0.9); */
+    /* background: rgba(255,255,255,0); /\* no box *\/ */
+    background: rgba(48,48,48,0.7); /* grey box */
+}
+
+
+/*-----[ FOOTER  ]------------------------------------------------------------*/
+
+.footer h3{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* footer { */
+/*     margin: 50px 0; */
+/* } */
+
+
+/*-----[ BODY  ]--------------------------------------------------------------*/
+
+table tr {
+    vertical-align: top;
+}
+
+table th {
+    padding: 5px;
+}
+
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+/*-----[ DIV  ]---------------------------------------------------------------*/
+
+@media(max-width:1200px) {
+    .headline {
+        padding: 50px 0;
+    }
+
+    .headline h1 {
+        font-size: 130px;
+    }
+
+    /* .headline h2 { */
+    /*     font-size: 63px; */
+    /* } */
+
+    .headline .jumbotron h2 {
+        font-size: 63px;
+    }
+
+    .headline .jumbotron {
+        font-size: 40px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline {
+        padding: 50px 0;
+    }
+
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    /* .headline h2 { */
+    /*     font-size: 50px; */
+    /* } */
+
+    .headline .jumbotron h2 {
+        font-size: 50px;
+    }
+
+    .headline .jumbotron {
+        font-size: 20px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .headline {
+        padding: 40px 0;
+    }
+
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline {
+        padding: 40px 0;
+    }
+
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    /* .headline h2 { */
+    /*     font-size: 32px; */
+    /* } */
+
+    .headline .jumbotron h2 {
+        font-size: 32px;
+    }
+
+    .headline .jumbotron {
+        font-size: 15px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 40px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline .jumbotron h2 {
+        font-size: 30px;
+    }
+
+    /* .headline .jumbotron { */
+    /*     font-size: 150px; */
+    /*     background: #fff; */
+    /*     background: rgba(255,255,255,0.9); */
+    /* } */
+
+    .featurette-image {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+/* .headline h2 { */
+/*     font-size: 30px; */
+/* } */
+}
+
+/* @media(max-height:375px) { */
+/*     header { */
+/*         height: auto; */
+/*     } */
+/* } */
+
+@media(max-width:375px) {
+    /* header { */
+    /*     height: auto; */
+    /* } */
+
+    .footer h3 {
+        font-size: 15px;
+    }
+
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
+
+/*-----[ END  ]---------------------------------------------------------------*/

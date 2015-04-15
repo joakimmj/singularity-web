@@ -1,0 +1,11 @@
+* Forslag
+** generelt
+   - annen font (Roboto)
+** header
+   - grå bokser og hvit tekst
+   - ingen bokser
+** main
+   - hvert punkt egen side
+   - scale figurer ved hvert punkt
+*** Contact
+    - bakgrunnsfarge for å skille seg ut
