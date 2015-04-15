@@ -25,17 +25,19 @@
     color: #9D9D9D;
 }
 
-.header-image, .footer, .navbar-fixed-top {
-    display: block;
-    width: 100%;
-    /* height: 100vh; */
-    text-align: center;
-    background: url('../img/header.jpg') no-repeat top center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-attachment: fixed;
+@media all {
+    .header-image, .footer, .navbar-fixed-top {
+        display: block;
+        width: 100%;
+        /* height: 100vh; */
+        text-align: center;
+        background: url('../img/header.jpg') no-repeat top center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
 .navbar-collapse {
